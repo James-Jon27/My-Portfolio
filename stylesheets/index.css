@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	color: #fff;
+	background-color: #000;
+	line-height: 1.6;
+}
+
+header {
+	background-color: black;
+	padding: 10px 0;
+	text-align: center;
+}
+
+#name {
+    font-size: 32px;
+}
+
+div {
+	color: lightskyblue;
+}
+
+.logo img {
+	max-width: 350px;
+}
+
+.cover-photo {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.cover-photo img {
+	width: 100%;
+	max-height: 300px;
+	object-fit: cover;
+}
+
+#me {
+	display: flex;
+	justify-content: space-around;
+}
+
+.projects,
+.contact {
+	padding: 20px;
+	text-align: center;
+}
+
+.contact {
+	display: flex;
+	justify-content: space-around;
+}
+
+.contact ul {
+	list-style: none;
+	padding: 0;
+}
+
+.contact li {
+	margin: 10px 0;
+}
+
+.contact a {
+	color: #1e90ff;
+	text-decoration: none;
+}
+
+.projects a:hover,
+.contact a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	background-color: #111;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 0;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
